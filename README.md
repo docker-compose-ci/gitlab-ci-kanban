@@ -144,7 +144,7 @@ ls
 # xxx.tar
 ```
 
-恢复需要停服务，
+恢复需要停服务，在 `docker exec -it gitlab_gitlab_1 bash` 中运行
 ```
 service gitlab stop
 gitlab-rake gitlab:backup:restore BACKUP=1493107454_2017_04_25_9.1.0
